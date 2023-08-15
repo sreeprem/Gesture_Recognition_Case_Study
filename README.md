@@ -22,3 +22,6 @@ Standard CNN + RNN architecture: This involves extracting feature vectors for ea
 The analysis leverages the Keras API with TensorFlow as the backend. Key steps include reading and preprocessing the image folders, which entails cropping, resizing, and standardizing the images. Data augmentation is applied if necessary to enhance training, and factors like batch size, epochs, image size, and the number of frames per video are optimized.
 
 A custom generator function is crafted to efficiently handle data flow. Different models, including Conv2D+LSTM, Conv2D+GRU, and Conv3D, are evaluated. The conclusion from the analysis is that the Conv2D+LSTM model demonstrates promising performance. The proximity of these two accuracy values suggests that the model is well-trained without overfitting. Thus, the Conv2D+LSTM model is selected as the final choice for implementation, providing an effective solution for gesture recognition and control of the smart TV.
+
+Contributers:
+Sree P
